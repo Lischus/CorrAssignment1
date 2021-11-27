@@ -25,19 +25,19 @@ body {
     color: #d9dcd6;
 }
 /*Changes the font, size and positioning of the links*/
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/**/
-.header div ul {
+/*Removes bullets from the list*/
+.header nav ul {
     list-style-type: none;
 }
 /*Makes the list of links go horizontal instead of vertical*/
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-/*Sets the background image size and positioning*/
+/*Places the background image, as well as sets the size and positioning of it*/
 .hero {
     height: 800px;
     width: 100%;
