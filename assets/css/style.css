@@ -86,23 +86,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/**/
+/*Changes the font color in the side box to white, as well as adding more space beneath each paragraph*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/**/
+/*Centers the h3 tags in the side box, as well as adds space between each h3 and each image beneath*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/**/
+/*Shrinks each image in the side box, as well as setting the margins and centers each image*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/**/
+/*Sets the font family and font color within each horizontal box, as well as changing the bottom margin, padding, heigh and color of the box itself*/
 .horizontal-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,11 +111,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/**/
+/*Sets the height of each image in the horizontal boxes*/
 .horizontal-box img {
     max-height: 200px;
 }
-/**/
+/*Sets the bottom margin and font size of each header in the horizontal boxes*/
 .horizontal-box h2 {
     margin-bottom: 20px;
     font-size: 36px;
